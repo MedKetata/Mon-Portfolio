@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+    background-color: beige;
+} 
+
+.p_photo{
+    width: 10%;
+    border-radius: 50%;
+}
+.nomprenom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reseau_social{
+    display:flex;
+    flex-direction: column;
+    font-size: large;
+}
+.reseau_social div{
+    width: 200px;
+}
+.reseau_social img{
+    width: 7%;
+}
+main{
+    display: flex;
+    height: auto;
+
+}
+#m1{
+    height: 570px;
+}
+.sgauche{
+    width: 33%;
+    background-color: azure;
+}
+
+.sgauche nav{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+.sdroite{
+    padding: 2%;
+    background-image: url("../images/bag1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sdroite h1{
+    font-size: xx-large;
+    font-style: italic;
+}
+.sdroite p{
+    font-size: larger;
+    text-align: justify;
+}
+.sdroite img{
+    width: 20%;
+}
+.sdroite article{
+    display: flex;
+    justify-content: flex-start;
+}
+.sdroite article *{
+    padding: 15px;
+}
+#sd1{
+    background-image: none;
+    width: 200%;
+}
+.sdroite article h2  ,.sdroite article div h2{
+    text-decoration: underline;
+}
+.mon_quiz{
+    background-color: bisque;
+}
+.sd{
+    background-color: bisque;
+    width: auto;
+
+}
+.sgauche1 {
+    margin-right: auto;
+
+}
+#temp{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+    text-align: justify;
+    color: blue;
+}
